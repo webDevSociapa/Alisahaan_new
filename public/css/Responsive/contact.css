@@ -1,0 +1,60 @@
+/* Responsive Design */
+@media (max-width: 1024px) {
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .contact-image {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .being-right hr {
+        width: 15%;
+        margin-left: 18%;
+    }
+}
+  @media (max-width: 768px) {
+
+    .contact-section {
+        padding: 80px 0px 10px 20px;
+    }
+
+    .being-right span {
+        font-size: 16px;
+    }
+
+    .being-right img {
+        width: 50%;
+        margin-top: 8px;
+    }
+
+    .contact-form-data {
+        padding: 0;
+    }
+
+    .contact-image {
+        width: 100%;
+        margin-top: 120px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .being-right hr {
+        width: 40%;
+        margin-left: 33%;
+    }
+
+    .location-line {
+        width: 35%;
+        height: 4px;
+        margin: 0px auto 0;
+        background: linear-gradient(90deg, #8e0f06 0%, #e7bf43 50%, #8e0f06 100%);
+        border: none;
+        margin-left: 40%;
+        opacity: 1;
+    }
+
+  }
+  /* contact page */
