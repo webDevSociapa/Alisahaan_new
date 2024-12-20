@@ -1,0 +1,1065 @@
+@media (max-width: 1440px) {
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .royal-affair {
+      height: auto;
+  }
+  
+  .ra-left img {
+      margin-left: 180px;
+      margin-top: 50px;
+      width: 50%;
+  }
+  
+  .ra-left p {
+      margin-left: 140px;
+      font-size: 18px;
+      line-height: 1.8rem;
+  }
+  
+  .ra-right img {
+      margin-left: 0;
+      width: 100%;
+      margin-top: 230px;
+  }
+  
+  .why-us hr {
+    margin-left: 12%;
+  }
+  
+  /* being alishan */
+  .being-alishan {
+    height: auto;
+  }
+  
+  .ba-prod {
+    margin-bottom: 0 !important;
+  }
+  
+  .vr {
+    height: 20em;
+    top: 28%;
+  }
+  
+  .being-right span {
+    font-size: 22px;
+    letter-spacing: 0.3rem;
+  }
+  
+  .being-right hr {
+    width: 20%; 
+    margin-left: 5%;
+  }
+  
+  .being-right p {
+    font-size: 16px; 
+    padding-right: 50px; 
+    margin-top: 50px; 
+    line-height: 2rem; 
+  }
+  
+  .carousel-indicators {
+    margin-left: 6%;
+  }
+  
+  /* Trending page */
+  .trending {
+    margin-top: -120px;
+  }
+  
+  .trending h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.25rem;
+  }
+  
+  .trending hr {
+    left: 45%;
+  }
+  
+  .trending-row {
+    margin-top: 5rem;
+    margin-right: -15px;
+  }
+  
+  .trending-left {
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+  
+  .trending-left p {
+    font-size: 16px;
+    line-height: 1.8rem;
+  }
+  
+  .nav-item button {
+    font-size: 24px;
+  }
+  
+  .trending-insta {
+    left: 35%;
+  }
+  
+  /* AboutUsPage */
+  .common-banner {
+    height: auto;
+  }
+  
+  .being-right-about {
+    font-size: 16px;
+    margin-top: 100px;
+    padding-left: 120px;
+    line-height: 2.1rem;
+  }
+  
+  .being-right-about span {
+    font-size: 24px;
+  }
+  
+  .being-img img {
+    width: 80%;
+  }
+  
+  }
+  
+  @media (max-width: 1024px) {
+    body {
+        overflow-x: hidden !important;
+      }
+
+    /* navbar */
+    .nav-link {
+      font-size: 12px;
+    }
+    /* Royal Affair background and height adjustment */
+    .royal-affair {
+        height: 700px; /* Adjust the height for tablets */
+        background-position: top center; /* Adjust background position */
+    }
+  
+    /* Adjust the position of the left image */
+    .ra-left img {
+        margin-left: 50px; /* Adjust the left margin for tablets */
+        margin-top: 50px; /* Reduce the margin-top */
+    }
+  
+    /* Adjust text in the left section */
+    .ra-left p {
+        margin-left: 80px; /* Adjust left margin */
+        font-size: 18px; /* Smaller font size for tablets */
+        line-height: 1.8rem; /* Reduced line height */
+    }
+  
+    .ra-right img {
+        margin-top: 250px;
+        margin-left: -140px;
+        width: 700px;
+        height: auto;
+    }
+  
+    /* about us */
+    .about-us {
+      margin-top: -100px;
+    }
+  
+    .about-left {
+      margin-top: 200px;
+    }
+  
+    .about-left p {
+      margin-left: 50px;
+      margin-right: 20px;
+      font-size: 16px;
+      line-height: 1.8rem;
+    }
+  
+    .about-right {
+      margin-top: 150px;
+    }
+  
+    .about-right img {
+      margin-right: 50px;
+      width: 400px;
+    }
+  
+    .why-us h4 {
+      margin-left: 50px;
+      font-size: 22px;
+    }
+  
+    .why-us hr {
+      margin-left: 5%;
+      width: 10%;
+    }
+  
+    .why-us-section {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .why-us-card img {
+      max-width: 100px;
+    }
+  
+    .why-us-card h5 {
+      font-size: 22px;
+    }
+  
+    .why-us-card p {
+      font-size: 14px;
+    }
+  
+    /* beingAlishan */
+    .being-alishan {
+      height: auto; /* Allow dynamic height for better responsiveness */
+      padding: 20px;
+    }
+  
+    .vr {
+      height: 10em;
+      top: 30%;
+    }
+  
+    .rice {
+      width: 100%;
+    }
+  
+    .rice img {
+      width: 15% !important;
+    }
+
+    .ref-1 {
+        -webkit-box-reflect: below -75px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(45%, rgba(255, 255, 255, 0.1)), /* Reduced opacity here */ to(rgba(255, 255, 255, 0)) /* Fully transparent at the end */);
+    }
+  
+    .being-right {
+      width: 100%;
+      margin-top: 85px;
+    }
+  
+    .being-right span {
+      font-size: 22px;
+      top: 10px;
+      letter-spacing: 0.3rem;
+    }
+  
+    .being-right hr {
+      width: 15%;
+      margin-left: 12%;
+    }
+  
+    .being-right p {
+      font-size: 16px;
+      padding-right: 10px;
+      margin-top: 35px;
+      line-height: 2rem;
+    }
+  
+    /* Our Recipe */
+    .recipe-section {
+      padding: 20px;
+    }
+  
+    .recipe-section h2 {
+      font-size: 22px;
+      text-align: left;
+    }
+  
+    .video-card {
+      padding: 8px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+  
+    .video-card-title {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .video-card-subtitle {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .play-icon ::before {
+      padding-top: 15px;
+      padding-left: 15px;
+  }
+  
+    .play-icon {
+      font-size: 30px;
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    .map-container img {
+        width: 100%;
+        height: auto;
+    }
+  
+    .custom-carousel-controls {
+      top: -60px; /* Adjust position for smaller screens */
+      right: 20px; /* Bring closer to content */
+    }
+  
+    .custom-carousel-controls button {
+      width: 35px;
+      height: 35px;
+    }
+  
+    /* blog */
+    .socialblog-left {
+      background: linear-gradient(180deg, #941108 0%, #242424 100%);
+      padding-bottom: 20px;
+    }
+
+    .socialblog h2 {
+      font-size: 18px; 
+      margin-top: 60px;
+    }
+  
+    .socialblog hr {
+      width: 25%; /* Increase line width for better visibility */
+      left: 10%; /* Adjust alignment */
+    }
+  
+    .socialblog h3 {
+      font-size: 27px; 
+      text-align: start; 
+    }
+  
+    .socialblog p {
+       font-size: 15px;
+       line-height: 2rem;
+       margin-top: 15px;
+    }
+
+    .content-border {
+      display: inline-block;
+      border: 1px solid #E7BF43;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20%;
+    }
+  
+    .bb {
+      height: auto;
+    }
+  
+    .blog h4 {
+      font-size: 20px; /* Scale down heading size */
+      letter-spacing: 0.2rem; /* Adjust spacing */
+    }
+  
+    .blog hr {
+      width: 30%; /* Adjust width for smaller screens */
+      left: 5%; /* Center line */
+    }
+  
+    .carousel-item h2 {
+      font-size: 28px; /* Reduce font size for carousel headings */
+    }
+  
+    .vb {
+      font-size: 18px; /* Adjust button font size */
+      padding: 10px 20px; /* Add padding for better touch area */
+      margin-top: 25px;
+    }
+  
+  
+    /* testimonials */
+    .testimonial {
+      height: auto; /* Allow flexible height */
+      background-attachment: scroll; /* Prevent background from being fixed */
+      padding-bottom: 50px; /* Add bottom padding */
+    }
+  
+    .testimonial h2 {
+      font-size: 22px; /* Scale down heading */
+      padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .testimonial hr {
+      width: 20%; /* Increase hr width for better balance */
+      margin-left: 20px; /* Align hr with heading */
+    }
+  
+    .testimonial-content {
+      padding: 50px; /* Reduce padding */
+    }
+  
+    .testimonial-info h5 {
+      font-size: 28px; /* Reduce size */
+      text-align: center; /* Center-align for visual balance */
+    }
+  
+    .testimonial-info small {
+      font-size: 18px; /* Adjust text size */
+      text-align: center;
+    }
+  
+    .testimonial p {
+      font-size: 18px; /* Scale down paragraph text */
+      line-height: 2rem;
+      text-align: justify; /* Center-align testimonials */
+    }
+  
+    .carousel-indicators {
+        justify-content: start;
+        margin-right: 0;
+        margin-left: 3%;
+    }
+  
+    /* Trending page */
+    .trending {
+      margin-top: -100px;
+    }
+  
+    .trending h2 {
+      margin-top: 10%;
+      font-size: 1.6rem;
+      letter-spacing: 0.2rem;
+    }
+  
+    .trending hr {
+      width: 12%;
+      left: 44%;
+    }
+  
+    .trending-row {
+      margin-top: 4rem;
+      margin-right: -10px;
+    }
+  
+    .trending-left {
+      padding-left: 20px;
+      padding-top: 0px;
+    }
+  
+    .trending-left p {
+      font-size: 15px;
+      line-height: 1.6rem;
+      text-align: justify;
+    }
+  
+    .nav-item button {
+      font-size: 22px;
+    }
+  
+    .trending-insta {
+      left: 30%;
+    }
+  
+    /* AboutUsPage */
+    .common-banner {
+      height: auto;
+    }
+    .being-right-about {
+      font-size: 14px;
+      margin-top: 80px;
+      padding-left: 80px;
+      line-height: 1.9rem;
+    }
+  
+    .being-right-about span {
+      font-size: 22px;
+    }
+  
+    .being-img img {
+      width: 90%;
+      margin-top: 100px;
+    }
+  
+  }
+  
+  /* Tablet View (max-width: 768px) */
+  @media (max-width: 768px) {
+    /* Navbar padding adjustment */
+    .custom-navbar {
+        padding: 15px 10px;
+    }
+  
+    /* Adjust logo size */
+    .navbar-brand img {
+        height: 40px;
+    }
+  
+    /* Adjust nav-link size and spacing */
+    .nav-link {
+        font-size: 0.9rem; /* Slightly smaller font on tablet */
+        padding: 8px 12px;
+    }
+  
+    /* Stack nav links vertically on tablet */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center links in column layout */
+        margin-top: 10px;
+    }
+  
+    .nav-links li {
+        margin: 10px 0; /* Vertical space between links */
+    }
+  
+    /* Royal Affair background and height adjustment */
+    .royal-affair {
+      height: 700px; /* Adjust the height for tablets */
+      background-position: top center; /* Adjust background position */
+  }
+  
+  /* Adjust the position of the left image */
+  .ra-left img {
+      margin-left: 50px; /* Adjust the left margin for tablets */
+      margin-top: 50px; /* Reduce the margin-top */
+  }
+  
+  /* Adjust text in the left section */
+  .ra-left p {
+      margin-left: 80px; /* Adjust left margin */
+      font-size: 18px; /* Smaller font size for tablets */
+      line-height: 1.8rem; /* Reduced line height */
+  }
+  
+  /* Adjust the right image size and position */
+  .ra-right img {
+    margin-top: 320px;
+    margin-left: -100px;
+    width: 500px;
+    height: auto;
+  }
+  
+  /* about us */
+  .about-us {
+    margin-top: -240px;
+  }
+  
+  .about-left {
+    margin-top: 250px;
+    order: 1;
+  }
+  
+  .about-left p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 1.8rem;
+  }
+  
+  .about-right {
+    margin-top: 400px;
+    order: 2;
+  }
+  
+  .gradient-line {
+    width: 13%;
+    height: 5px;
+    background: linear-gradient(to right, #FDFCFC, #E7BF43, #FFFFFF);
+    border: none;
+    margin: 20px 0;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 28%;
+    opacity: 1;
+  }
+  
+  .about-right img {
+    margin-top: -150px;
+    margin-right: 50px;
+    width: 300px;
+  }
+  
+  .why-us {
+    margin-top: 50px;
+  }
+  
+  .why-us h4 {
+    margin-left: 50px;
+    font-size: 22px;
+  }
+  
+  .why-us hr {
+    width: 14%;
+    height: 5px;
+    background: linear-gradient(90deg, #FDFCFC, #E7BF43, #FFFFFF);
+    border: none;
+    margin: 20px 0;
+    position: absolute;
+    margin-top: 40px;
+    opacity: 1;
+    margin-left: 8%;
+  }
+  
+  .why-us-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .why-us-card img {
+    max-width: 100px;
+  }
+  
+  .why-us-card h5 {
+    font-size: 22px;
+  }
+  
+  .why-us-card p {
+    font-size: 14px;
+  }
+  
+  /* beinng alishan */
+  .being-alishan {
+    height: auto; /* Full adaptability for smaller screens */
+    padding: 10px;
+  }
+  
+  .first-img {
+  width: 33%;
+  }
+  
+  .vr {
+    height: 15em;
+    top: 40%;
+  }
+
+  .being-right {
+    width: 100%;
+    margin-top: 85px !important;
+}
+  
+  .being-right span {
+    font-size: 18px;
+    top: 5px;
+    letter-spacing: 0.2rem;
+  }
+  
+  .being-right hr {
+    width: 25%;
+    margin-left: 12%;
+  }
+  
+  .being-right p {
+    font-size: 14px;
+    padding-right: 20px;
+    margin-top: 30px;
+    line-height: 1.8rem;
+  }
+  
+  /* recipe */
+  .recipe-section {
+    padding: 10px;
+  }
+  
+  .recipe-section h2 {
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .r-line {
+    width: 22%;
+  }
+  
+  .carousel-item .col-md-4:first-child {
+    display: block;
+    margin: auto;
+  }
+  /* end show one card */
+  .video-card {
+    padding: 5px;
+    margin-bottom: 15px; /* Reduce spacing */
+  }
+  
+  .video-card-title {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .video-card-subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .play-icon ::before {
+    padding-top: 14px;
+    padding-left: 14px;
+  }
+  
+  .play-icon {
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .custom-carousel-controls {
+    top: -50px; /* Further adjust for mobile */
+    right: 10px;
+    gap: 5px; /* Reduce button spacing */
+  }
+  
+  .custom-carousel-controls button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* map */
+  .map hr {
+    width: 50%; /* Increase visibility on smaller screens */
+    left: 25%; /* Center the HR */
+  }
+  
+  .map h3 {
+    font-size: 26px; /* Further reduce size */
+    text-align: center;
+  }
+  
+  .map p {
+    font-size: 16px; /* Reduce font size */
+    text-align: center;
+    letter-spacing: 0.2rem; /* Adjust letter spacing */
+  }
+  
+  .map-container img {
+    height: auto; 
+    width: 700px;
+  }
+  
+  .iamlishan {
+    height: 400px; /* Reduce height for compact view */
+    background-size: cover; /* Ensure image covers the section */
+  }
+  
+  .iamlishan span {
+    font-size: 28px; /* Further reduce heading size */
+    text-align: center; /* Center-align text */
+    margin-top: 20px;
+  }
+  
+  .iamlishan p {
+    font-size: 14px; /* Reduce text size for small screens */
+    margin: 10px 15px; /* Add more margin for readability */
+    text-align: center; /* Align text to the center */
+  }
+  
+  .imaImg img {
+    width: 30%; /* Scale image further for small screens */
+    margin: 10px auto;
+    padding-top: 12px;
+  }
+  
+  .socialblog h2 {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 40px;
+  }
+  
+  .socialblog hr {
+    width: 40%; /* Extend line width */
+    left: 15%; /* Center-align */
+  }
+  
+  .socialblog h3 {
+    font-size: 20px; /* Decrease size further */
+    text-align: left;
+  }
+  
+  .socialblog p {
+    font-size: 13px;
+    line-height: 1.8rem;
+    margin: 0 10px;
+    text-align: justify;
+  }
+  
+  .content-border img {
+    width: 10%; /* Make images fully responsive */
+  }
+
+  .content-border span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Sen';
+    color: white;
+    letter-spacing: .1rem;
+    margin-left: 15px;
+}
+  
+  .bb {
+    height: auto;
+    background-size: cover;
+  }
+  
+  .blog h4 {
+    font-size: 18px; /* Smaller heading for mobile */
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .blog hr {
+    width: 20%; /* Center and resize */
+    left: 40%;
+  }
+  
+  .carousel-item h2 {
+    font-size: 20px; /* Scale down carousel text */
+  }
+  
+  .vb {
+    font-size: 16px; 
+    padding: 8px 15px; 
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  /* testimonials */
+  .testimonial {
+    height: 650px;
+  }
+  .testimonial h2 {
+    font-size: 18px; 
+    padding-left: 10px; 
+    text-align: left;
+  }
+  
+  .testimonial hr {
+    width: 20%; /* Extend hr width for better visibility */
+    left: 8%; /* Center-align hr */
+    margin-left: 0;
+  }
+  
+  .testimonial-content {
+    padding: 20px 70px; /* Compact padding */
+  }
+  
+  .testimonial-image {
+    width: 50px; /* Scale down image size */
+    height: 50px;
+    }
+  
+  .testimonial-info h5 {
+    font-size: 22px; /* Adjust heading size */
+  }
+  
+  .testimonial-info small {
+    font-size: 16px; /* Smaller text for mobile */
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.8rem;
+    text-align: left;
+    padding-right: 40%;
+  }
+  
+  .testimonial-quote {
+    font-size: 1.2rem; /* Reduce quote size */
+  }
+  
+  .carousel-indicators {
+    justify-content: left;
+    margin-bottom: -30px;
+    margin-left: 8%;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 8px; /* Reduce size of indicators */
+    height: 8px;
+  }
+  
+  /* trending page */
+  .trending {
+    margin-top: -80px;
+    padding: 10px;
+  }
+  
+  .trending h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+  }
+  
+  .trending hr {
+    width: 15%;
+    left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .trending-row {
+    margin-top: 3rem;
+    margin-right: 0;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  
+  .trending-left {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .trending-left p {
+    font-size: 14px;
+    line-height: 1.4rem;
+    text-align: justify;
+  }
+  
+  .trending-right {
+    text-align: center;
+  }
+
+  .trending-right img {
+    width: 95%;
+  }
+  
+  .nav-item button {
+    font-size: 20px;
+  }
+  
+  .trending-insta {
+    left: 0;
+    position: static;
+  }
+  
+  /* AboutUs Page */
+  .common-banner {
+    height: auto;
+  }
+  .being-right-about {
+    font-size: 14px;
+    margin-top: 60px;
+    padding-left: 15px;
+    line-height: 1.7rem;
+  }
+  
+  .being-right-about hr {
+    width: 15%;
+    margin-left: 10%;
+  }
+  
+  .being-right-about span {
+    font-size: 20px;
+    top: 10px;
+  }
+  
+  .being-img img {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  
+  } 
+
+  /* Mobile View (max-width: 425) */
+
+  @media (max-width: 425px) {
+    .ra-left img {
+        margin-left: 25%;
+        margin-top: 50px;
+    }
+
+    .ra-left p {
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        font-size: 18px;
+        line-height: 1.8rem;
+    }
+
+    .ra-right img {
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 450px;
+        height: auto;
+    }
+
+    .about-left {
+        margin-top: 50px;
+        order: 2;
+    }
+
+    .about-right {
+        margin-top: 450px;
+        order: 1;
+    }
+
+    .gradient-line {
+        width: 20%;
+        margin-left: 60%;
+    }
+
+    .why-us hr {
+        width: 20%;
+        margin-left: 15%;
+    }
+
+    .ref-1 {
+        -webkit-box-reflect: below -15px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(45%, rgba(255, 255, 255, 0.1)), /* Reduced opacity here */ to(rgba(255, 255, 255, 0)) /* Fully transparent at the end */);
+    }
+
+    .being-right hr {
+        width: 40%;
+        margin-left: 22%;
+    }
+
+    .map-container img {
+        height: auto;
+        width: 350px;
+    }
+
+    .socialblog h2 {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .socialblog hr {
+        width: 40%;
+        left: 30%;
+    }
+
+    .content-border {
+        margin-left: 17% !important;
+    }
+
+    .blog img {
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    .testimonial {
+        background-position: left;
+        height: 700px;
+    }
+
+    .testimonial h2 {
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 10px !important;
+    }
+
+    .testimonial hr {
+        left: 40%;
+    }
+
+    .testimonial-info h5 {
+        font-size: 18px;
+    }
+
+    .testimonial-info small {
+        font-size: 14px;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        line-height: 1.8rem;
+        text-align: justify;
+        padding-right: 0;
+    }
+
+    .carousel-indicators {
+        justify-content: left;
+        margin-bottom: -30px;
+        margin-left: 13%;
+    }
+}

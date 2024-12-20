@@ -15,7 +15,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
+<<<<<<< HEAD
   <link rel="stylesheet" href={{ asset("css/Responsive/whyus.css")}}>
+=======
+  <link rel="stylesheet" href={{ asset("css/style.css")}}>
+>>>>>>> emraan
 </head>
 <body>
   @include('layout.header')
@@ -32,7 +36,11 @@
     <div class="mt-5 why-us-rb mb-5">
       <p class="text-center text-white">
         <span class="custom-text text">WHY CHOOSE</span>
+<<<<<<< HEAD
         <img src={{ asset("imgs/Alishaan-head.png")}} class="ms-3 alishaan-head" alt="Alishaan Head">
+=======
+        <img src={{ asset("imgs/Alishaan-head.png")}} class="ms-3" alt="Alishaan Head">
+>>>>>>> emraan
       </p>
       <hr>
     </div>
@@ -55,13 +63,26 @@
     <div class="container-fluid">
       <!-- 1 -->
       <div class="whyus-box">
+<<<<<<< HEAD
         <div class="row align-items-center custom-legacy flex-column-reverse flex-lg-row">
+=======
+        <div class="row align-items-center custom-legacy">
+>>>>>>> emraan
           <!-- Left side: Legacy text -->
           <div class="col-lg-6 d-flex justify-content-center">
             <div class="whyus-legacy p-4 text-white">
               <h2 class="mb-3">Legacy</h2>
               <p>
+<<<<<<< HEAD
               Established in the year 1983, Alishaan Basmati Rice is a well-recognized name as a producer, wholesaler, and trader of Indian Basmati Rice, offering a wide array of traditional basmati rice. Over these years, we have always emphasized stringent quality standards to ensure that the products provided to our clients are still in line with their expectations. The goal of the company is to offer the highest quality product while maintaining a strong customer relationship. Past 37 years, we have been serving across length and breadth of the food market including ethnic stores, speciality stores, ethnic stores, supermarkets, HORECA & institutions.
+=======
+                Established in the year 1983, Alishaan Basmati Rice is a well-recognized name as a producer, wholesaler,
+                and trader of Indian Basmati Rice, offering a wide array of traditional basmati rice. Over these years,
+                we have always emphasized stringent quality standards to ensure that the products provided to our
+                clients are still in line with their expectations. The goal of the company is to offer the highest quality product while maintaining a strong customer
+                relationship. Past 37 years, we have been serving across lengths and breadths of the food market
+                including ethnic stores, specialty stores, ethnic stores, supermarkets, HORECA & institutions.
+>>>>>>> emraan
               </p>
             </div>
           </div>
@@ -100,7 +121,13 @@
 </div>
       <!-- 3 -->
       <div class="whyus-box">
+<<<<<<< HEAD
         <div class="row align-items-center custom-legacy flex-column-reverse flex-lg-row">
+=======
+        <div class="row align-items-center custom-legacy">
+
+
+>>>>>>> emraan
           <!-- Right side: Image with bowl and spoon -->
   
           <!-- Left side: Legacy text -->
@@ -118,6 +145,10 @@
               </p>
             </div>
           </div>
+<<<<<<< HEAD
+=======
+  
+>>>>>>> emraan
           <div class="col-lg-6 text-center">
             <div class="legacy-image-container position-relative">
               <img src={{ asset("imgs/whyus-stregy.png")}} alt="Basmati Rice Bowl" class="bowl-image" />
