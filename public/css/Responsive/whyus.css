@@ -71,7 +71,7 @@
   }
   
   /* Media Queries for Responsiveness */
-  @media (max-width: 1200px) {
+  @media (max-width: 1268px) {
     .why-us-content p {
       width: 80%;
     }
@@ -95,7 +95,7 @@
     }
   }
   
-  @media (max-width: 576px) {
+  @media (max-width: 468px) {
     .whyChooseUsRb {
       padding: 10px;
     }
@@ -112,6 +112,32 @@
     .why-us-rb hr {
       width: 30%;
     }
+    
+    .whyus-legacy p {
+        font-family: Sen;
+        line-height: 1.5 !important;
+        font-size: 15px !important;
+        letter-spacing: -0.3px;
+        text-align: justify;
+      }
+
+      .whyus-legacy::after {
+        bottom: -6px !important;
+        /* Adjust the vertical offset below the card */
+        right: -6px !important;
+        /* Adjust the horizontal offset to the right */
+        border-top: none;
+        border-left: none;
+      }
+      .whyus-legacy::before {
+        top: -6px !important;
+        /* Adjust the vertical offset above the card */
+        left: -6px !important;
+        /* Adjust the horizontal offset to the left */
+        border-bottom: none;
+        border-right: none;
+      }
+      
   }
   
   /*  */
@@ -143,6 +169,10 @@
       padding: 0px;
     }
   
+  }
+
+  .legacy-card{
+    padding: 0px 10px;
   }
   
   .whyus-section{

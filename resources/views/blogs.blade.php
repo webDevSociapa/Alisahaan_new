@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href={{ asset("css/style.css")}}>
+  <link rel="stylesheet" href={{ asset("css/Responsive/ourBlog.css")}}>
 </head>
 <body>
   @include('layout.header')
@@ -43,10 +43,10 @@
                     <p class="mt-3">When it comes to Basmati Rice, the world has expectations of premiumness. Known as
                         the King of Rice, Basmati Rice is no ordinary long grain of Rice. Alishaan Basmati Rice is grown
                         in the Himalayas with extreme care and love to meet the legacy of......</p>
-                </div>
-
-               
-                <div class="col-lg-6 mt-5 being-right blog-main-content">
+                </div> 
+            </div>
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 mt-5 being-right blog-main-content">
                     <h2 class="blog-content">Why Basmati Rice is special than Regular Rice?</h2>
 
                     <p class="mt-3">When it comes to Basmati Rice, the world has expectations of premiumness. Known as
@@ -57,19 +57,18 @@
                     
                     <img src={{ asset("imgs/ourBlog2.png")}} width="100%" alt="rice image">
                 </div>
+            </div>
+            <div class="row align-items-center">
+            <div class="col-lg-6 mt-5 our-blog-hr flex-column-reverse flex-lg-row">
+                   <img src={{ asset("imgs/blog3.png")}} width="100%" alt="rice image">
+               </div>
+               <div class="col-lg-6 mt-5 being-right blog-main-content">
+                   <h2 class=" blog-content">Why Basmati Rice is special than Regular Rice?</h2>
 
-
-                <div class="col-lg-6 mt-5 our-blog-hr">
-                   
-                    <img src={{ asset("imgs/blog3.png")}} width="100%" alt="rice image">
-                </div>
-                <div class="col-lg-6 mt-5 being-right blog-main-content">
-                    <h2 class=" blog-content">Why Basmati Rice is special than Regular Rice?</h2>
-
-                    <p class="mt-3">When it comes to Basmati Rice, the world has expectations of premiumness. Known as
-                        the King of Rice, Basmati Rice is no ordinary long grain of Rice. Alishaan Basmati Rice is grown
-                        in the Himalayas with extreme care and love to meet the legacy of......</p>
-                </div>
+                   <p class="mt-3">When it comes to Basmati Rice, the world has expectations of premiumness. Known as
+                       the King of Rice, Basmati Rice is no ordinary long grain of Rice. Alishaan Basmati Rice is grown
+                   in the Himalayas with extreme care and love to meet the legacy of......</p>
+               </div>
             </div>
         </div>
     </section>
