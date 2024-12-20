@@ -1,4 +1,4 @@
-<section class="footer-section">
+<section class="footer-section footer-border">
     <div class="footer-container">
       <div class="footer">
         <img src={{ asset("imgs/footer-bg.png")}} />

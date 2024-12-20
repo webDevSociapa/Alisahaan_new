@@ -32,7 +32,7 @@
     <div class="mt-5 why-us-rb mb-5">
       <p class="text-center text-white">
         <span class="custom-text text">WHY CHOOSE</span>
-        <img src={{ asset("imgs/Alishaan-head.png")}} class="ms-3" alt="Alishaan Head">
+        <img src={{ asset("imgs/Alishaan-head.png")}} class="ms-3 alishaan-head" alt="Alishaan Head">
       </p>
       <hr>
     </div>
@@ -55,18 +55,13 @@
     <div class="container-fluid">
       <!-- 1 -->
       <div class="whyus-box">
-        <div class="row align-items-center custom-legacy">
+        <div class="row align-items-center custom-legacy flex-column-reverse flex-lg-row">
           <!-- Left side: Legacy text -->
           <div class="col-lg-6 d-flex justify-content-center">
             <div class="whyus-legacy p-4 text-white">
               <h2 class="mb-3">Legacy</h2>
               <p>
-                Established in the year 1983, Alishaan Basmati Rice is a well-recognized name as a producer, wholesaler,
-                and trader of Indian Basmati Rice, offering a wide array of traditional basmati rice. Over these years,
-                we have always emphasized stringent quality standards to ensure that the products provided to our
-                clients are still in line with their expectations. The goal of the company is to offer the highest quality product while maintaining a strong customer
-                relationship. Past 37 years, we have been serving across lengths and breadths of the food market
-                including ethnic stores, specialty stores, ethnic stores, supermarkets, HORECA & institutions.
+              Established in the year 1983, Alishaan Basmati Rice is a well-recognized name as a producer, wholesaler, and trader of Indian Basmati Rice, offering a wide array of traditional basmati rice. Over these years, we have always emphasized stringent quality standards to ensure that the products provided to our clients are still in line with their expectations. The goal of the company is to offer the highest quality product while maintaining a strong customer relationship. Past 37 years, we have been serving across length and breadth of the food market including ethnic stores, speciality stores, ethnic stores, supermarkets, HORECA & institutions.
               </p>
             </div>
           </div>
@@ -105,9 +100,7 @@
 </div>
       <!-- 3 -->
       <div class="whyus-box">
-        <div class="row align-items-center custom-legacy">
-
-
+        <div class="row align-items-center custom-legacy flex-column-reverse flex-lg-row">
           <!-- Right side: Image with bowl and spoon -->
   
           <!-- Left side: Legacy text -->
@@ -125,7 +118,6 @@
               </p>
             </div>
           </div>
-  
           <div class="col-lg-6 text-center">
             <div class="legacy-image-container position-relative">
               <img src={{ asset("imgs/whyus-stregy.png")}} alt="Basmati Rice Bowl" class="bowl-image" />
