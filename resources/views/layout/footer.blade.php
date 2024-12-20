@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <section class="footer-section footer-border">
+=======
+<section class="footer-section">
+>>>>>>> emraan
     <div class="footer-container">
       <div class="footer">
         <img src={{ asset("imgs/footer-bg.png")}} />

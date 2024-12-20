@@ -18,7 +18,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
+<<<<<<< HEAD
   <link rel="stylesheet" href={{ asset("css/style.css")}}>
+=======
+  <link rel="stylesheet" href={{ asset("css/style.css") }}>
+  <link rel="stylesheet" href={{ asset("css/Responsive/home.css") }}>
+>>>>>>> emraan
 </head>
 <body>
   @include('layout.header')
@@ -259,7 +264,11 @@
                 </div>
                 <div class="col-md-6 bb"></div>
                     
+<<<<<<< HEAD
                     <section class="pt-5 pb-5 blog">
+=======
+                    <section class="mt-3 mb-5 pt-5 pb-5 blog">
+>>>>>>> emraan
                         <div class="container">
                             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
