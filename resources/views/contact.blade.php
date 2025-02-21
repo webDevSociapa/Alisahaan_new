@@ -19,13 +19,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href={{ asset("css/style.css")}}>
+<<<<<<< HEAD
+=======
+  <link rel="stylesheet" href={{ asset("css/Responsive/contact.css")}}>
+>>>>>>> emraan
 </head>
 <body>
   @include('layout.header')
   <!-- Banner -->
   <section>
         <div class="common-banner">
+<<<<<<< HEAD
             <img class="w-100" width="1440" src={{ asset("imgs/contactBanner.png")}} />
+=======
+            <img class="w-100" width="1440" src={{ asset("imgs/contact-us-banner.jpg")}} />
+>>>>>>> emraan
         </div>
     </section>
     <!-- Banner -->
@@ -34,12 +42,22 @@
 
     <section class="contact-section">
         <div class="container-fluid">
+<<<<<<< HEAD
             <div class="being-right mb-5">
                 <span>Contact</span><img src={{ asset("imgs/Alishaan-head.png")}} class="ms-3" alt="alishan">
                 <hr class="distributor-line mb-4" />
             </div>
             <div class="row">
                 <div class="col-md-6 contact-form-data">
+=======
+            
+            <div class="row">
+                <div class="col-md-6 contact-form-data">
+                <div class="being-right mt-5 mb-5">
+                <span>Contact</span><img src={{ asset("imgs/Alishaan-head.png")}} class="ms-3" alt="alishan">
+                <hr class="distributor-line mb-4" />
+            </div>
+>>>>>>> emraan
                 <form class="mb-4" action="{{ route('submit.query') }}" method="POST">
                     @csrf
                     <input type="text" name="fullName" placeholder="Full Name" class="form-input-contact" />
@@ -51,7 +69,11 @@
 
                 </div>
                 <div class="col-md-6">
+<<<<<<< HEAD
                     <img src={{ asset("imgs/contact-image.png")}} alt="contact us" class="contact-image" />
+=======
+                    <img src={{ asset("imgs/contact-image.jpg")}} alt="contact us" class="contact-image" />
+>>>>>>> emraan
                 </div>
             </div>
         </div>
